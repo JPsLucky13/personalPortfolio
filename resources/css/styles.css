@@ -1,0 +1,90 @@
+html{
+    background-color: rgb(11, 89, 167);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+header{
+    display: inline-block;
+    width: 100%;
+}
+
+h1{
+    display: inline-flex;
+    float: left;
+}
+
+nav{
+    display: inline-flex;
+    float: right;
+}
+
+header ul{
+    list-style-type: none;
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+header li{
+    padding: 2.5rem 1.25rem;
+}
+
+.aboutMe{
+    display: inline-block;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none; /* no underline */
+}
+
+.aboutMe img{
+    max-width: 20%;
+    max-height: 20%;
+    float: right;
+}
+
+#description{
+    display: inline-block;
+    width: 50%;
+}
+
+#hogwartsLegacy{
+    display: inline-block;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+#hogwartsLegacy img{
+    max-width: 20%;
+    max-height: 20%;
+    float: right;
+}
+
+#legoBrawls{
+    display: inline-block;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+#legoBrawls img{
+    max-width: 20%;
+    max-height: 20%;
+    float: right;
+}
+
+#clawFace{
+    display: inline-block;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+#clawFace img{
+    max-width: 20%;
+    max-height: 20%;
+    float: right;
+}
+
